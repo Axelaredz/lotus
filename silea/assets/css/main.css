@@ -59,7 +59,7 @@ font-family: 'Rubik', sans-serif;
 font-family: 'Quicksand', sans-serif;
 
  ***/
-@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700|Rubik:300,400,500,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700|Rubik:300,400,500,700&display=swap"); */
 /*
   Flaticon icon font: Flaticon
 */
@@ -772,7 +772,6 @@ img {
     font-weight: 700;
     line-height: 1.4;
     z-index: 1;
-    text-transform: capitalize;
     margin-bottom: 15px;
     margin-top: -6px;
 }
@@ -1046,11 +1045,17 @@ img {
 }
 
 .yellow-bg {
-    background: #f8c291;
+    background: #bdf1fc;
+}
+@media (min-width: 1920px) {
+    .yellow-bg {
+        background: url("../images/cover2.jpg") no-repeat;
+        border-radius: 0 50% 0;
+    }
 }
 
 .yellow-light-bg {
-    background: #9AECDB;
+    background: #bdf1fc;
 }
 
 .purple-bg {
@@ -1099,7 +1104,7 @@ img {
     top: 0;
     height: 100%;
     width: 100%;
-    background: #0E8A70;
+    background: #BBECF6;
     content: "";
     z-index: -1;
     opacity: .6;
@@ -1787,12 +1792,13 @@ Footer Area
 */
 .footer-area {
     position: relative;
-    background: #212935;
+    background: #afbbbd;
 }
 
 .footer-area .footer-social {
     text-align: center;
     margin-bottom: 60px;
+    font-size: 1.5em;
 }
 
 .footer-area .footer-social ul li {
@@ -1806,7 +1812,7 @@ Footer Area
     line-height: 50px;
     text-align: center;
     display: inline-block;
-    border: 2px solid #434a53;
+    border: 2px solid #eee;
     border-radius: 50%;
     color: #ffffff;
 }
