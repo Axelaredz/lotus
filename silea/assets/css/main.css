@@ -1,68 +1,3 @@
-/* ---------------------------------------
-
-[Main Stylesheet]
-
-Project:    	  Paunda - Product Landing page HTML Template
-Version:    	  1.0
-Primary Use:      Product Landing Template
-
-------------------------------------------
-
-[Table of contents]
-
-1. Fonts
-2. Reset Css
-3. Global Settings
-4. Section Styles
-5. Colors
-6. Margin and Padding
-7. Background Overlay
-8. Buttons Style
-9. Preloader
-10. ScrollUp Button
-11. Main Header style
-12. Hero Area
-13. Features Area
-14. Custom Hero
-15. Promo Area
-16. Our Partners
-17. Pricing Table
-18. Why Choose us
-19. Parallax Area
-20. Testimonial Area
-21. Counter Area
-22. App Area
-23. Blog Area
-24. Footer Area
-25. Custom Banner
-26. About Area
-27. Award Area
-28. Card Features
-29. All Partners Area
-30. Team Area
-31. Card Apply Form
-32. Become Partner Area
-33. Card Details Area
-34. Choose Card
-35. Faq Area
-36. Error Area
-
--------------------------------------------*/
-/*** 
-
-================
-	Fonts
-================
-
-
-font-family: 'Rubik', sans-serif;
-font-family: 'Quicksand', sans-serif;
-
- ***/
-/* @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700|Rubik:300,400,500,700&display=swap"); */
-/*
-  Flaticon icon font: Flaticon
-*/
 @font-face {
     font-family: "Flaticon";
   src: url("../fonts/Flaticon.eot");
@@ -540,7 +475,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0px;
     background: none;
     line-height: 1.2em;
-    font-family: "Quicksand", sans-serif;
 }
 
 h1 {
@@ -782,7 +716,7 @@ img {
 
 .section-title h4 {
     font-size: 16px;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
     margin-bottom: 10px;
     color: #0E8A70;
     text-transform: uppercase;
@@ -1127,7 +1061,7 @@ img {
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.4s;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 .bttn-small {
@@ -1139,7 +1073,7 @@ img {
     display: inline-block;
     cursor: pointer;
     transition: 0.4s;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
     text-transform: uppercase;
 }
 
@@ -1419,7 +1353,7 @@ a#scrollUp {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 14px;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 .main-menu ul li:nth-last-of-type(1) .dropdown-menu .dropdown-menu, .main-menu ul li:nth-last-of-type(2) .dropdown-menu .dropdown-menu, .main-menu ul li:nth-last-of-type(3) .dropdown-menu .dropdown-menu {
@@ -1892,7 +1826,7 @@ Hero Area
     margin-bottom: 10px;
     text-transform: uppercase;
     font-weight: 600;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 22px;
 }
 
@@ -2006,7 +1940,7 @@ Hero Area
 .hero-section .hero-area-2 .single-hero .hero-sub .table-cell .hero-left h4 {
     margin-bottom: 10px;
     text-transform: uppercase;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
     font-weight: 600;
     font-size: 26px;
     letter-spacing: 2px;
@@ -3004,7 +2938,7 @@ Review Area
     font-weight: 400;
     line-height: 1.8em;
     color: #434a53;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 .review-area .testimonials .owl-nav {
@@ -3431,7 +3365,7 @@ Call to action Area
     transition: 0.4s;
     text-decoration: none;
     position: relative;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 .portfolio-filter li a:hover,
@@ -3789,7 +3723,7 @@ Work Area
 
 .work-area .single-work .single-work-content a {
     font-weight: 700;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 .work-area .single-work .single-work-content a.bttn-small:hover {
@@ -4754,7 +4688,7 @@ Contact area
 }
 
 .contact-form form p {
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 16px;
     margin-bottom: 15px;
 }
@@ -4764,7 +4698,7 @@ Contact area
     border: 2px solid #ddd;
     text-indent: 15px;
     margin-bottom: 15px;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 16px;
     border-radius: 4px;
 }
@@ -4818,7 +4752,7 @@ Contact area
 }
 
 .contact-content p {
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 14px;
     margin-bottom: 5px;
     color: #434a53;
@@ -5178,7 +5112,7 @@ Error Area
 }
 
 .error-cont p {
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 .error-cont form {
@@ -5191,7 +5125,7 @@ Error Area
     text-indent: 20px;
     height: 50px;
     transition: 0.3s;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 .error-cont form input:focus {
@@ -5603,7 +5537,7 @@ Sidebar
     color: #ffffff;
     text-align: center;
     display: inline-block;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
     margin: 0 1px;
 }
 
@@ -5631,7 +5565,7 @@ Sidebar
 .site-sidebar .single-sidebar .archives a {
     display: block;
     margin-bottom: 15px;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Rubik", sans-serif;
     color: #292929;
 }
 
