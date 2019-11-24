@@ -7,7 +7,7 @@
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  @    font-face {
+  @font-face {
         font-family: "Flaticon";
         src: url("../fonts/Flaticon.svg") format("svg");
     }
@@ -3869,9 +3869,6 @@ Blog Area
 ===============================
 
 */
-.blog-area {
-  /* Pagination */
-}
 
 .blog-area .single-blog {
     margin-bottom: 30px;
