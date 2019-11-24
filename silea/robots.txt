@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /assets/images/
+Disallow: /assets/js/
+Disallow: /assets/css/
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yandex
+Allow: /assets/images/
+Disallow: /assets/js/
+Disallow: /assets/css/
+Host: secretstrips.ru
