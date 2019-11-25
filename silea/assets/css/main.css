@@ -2531,7 +2531,7 @@ About Area
     padding-left: 30px;
 }
 
-.about-area .about-content .about-content-inner-2 ul li::before {
+/* .about-area .about-content .about-content-inner-2 ul li::before {
     position: absolute;
     content: "\f100";
     left: 0;
@@ -2539,7 +2539,7 @@ About Area
     font-family: Flaticon;
     color: #17a2b8;
     font-weight: 700;
-}
+} */
 
 .about-area .about-content .about-content-inner-2 ul li:last-child {
     margin-bottom: 0;
