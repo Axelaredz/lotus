@@ -5602,7 +5602,7 @@ Sidebar
 
 
 .img1{
-background: url("../images/products/1m.jpeg") no-repeat;
+background: url("../images/products/44m.jpg") no-repeat;
 }
 .img2{
 background: url("../images/products/2m.jpg") no-repeat;
@@ -5614,12 +5614,12 @@ background: url("../images/products/3m.jpg") no-repeat;
 background: url("../images/products/4m.jpg") no-repeat;
 }
 .img5{
-background: url("../images/products/5m.jpeg") no-repeat;
+background: url("../images/products/5m.jpg") no-repeat;
 }
 
 @media (min-width: 576px) {
     .img1{
-        background: url("../images/products/1.jpeg") no-repeat;
+        background: url("../images/products/44.jpg") no-repeat;
     }
     .img2{
         background: url("../images/products/2.jpg") no-repeat;
@@ -5631,6 +5631,6 @@ background: url("../images/products/5m.jpeg") no-repeat;
         background: url("../images/products/4.jpg") no-repeat;
     }
     .img5{
-        background: url("../images/products/5.jpeg") no-repeat;
+        background: url("../images/products/5.jpg") no-repeat;
     }
 }
