@@ -986,9 +986,7 @@ img {
 }
 @media (min-width: 1920px) {
     .yellow-bg {
-        /* background: url("../images/cover2.jpg") no-repeat;
-        background-size: cover; */
-        border-radius: 0 50% 0;
+        border-radius: 0 0 50% 50%;
     }
 }
 
@@ -5616,7 +5614,13 @@ background: url("../images/products/4m.jpg") no-repeat;
 .img5{
 background: url("../images/products/5m.jpg") no-repeat;
 }
-
+.yellow-bg1 {
+    background: #BFF3FE
+}
+/* .yellow-bg1 {
+    background: url("../images/products/44m.jpg") no-repeat;
+    background-size: cover;
+} */
 @media (min-width: 576px) {
     .img1{
         background: url("../images/products/44.jpg") no-repeat;
@@ -5633,4 +5637,8 @@ background: url("../images/products/5m.jpg") no-repeat;
     .img5{
         background: url("../images/products/5.jpg") no-repeat;
     }
+    /* .yellow-bg1 {
+        background: url("../images/products/44.jpg") no-repeat;
+        background-size: cover;
+    } */
 }
